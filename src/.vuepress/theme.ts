@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个软件开发工程师",
+    description: "生命不止，求知不止",
     // intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
@@ -75,7 +75,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      // "/demo/encrypt.html": ["1234"],
     },
   },
 
