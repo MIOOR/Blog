@@ -1,6 +1,6 @@
 ---
 title: C# 基础知识
-Date: 2024-06-19
+date: 2024-06-19
 category: C#
 tag: 
   - C# 语法
@@ -11,7 +11,7 @@ tag:
 
 ## 语法
 
-### C#中的按值和按引用传递
+### C# 中的按值和按引用传递
 
 按值传递给函数时，变量传递的是副本；按引用传递给函数时，变量传递的是本身。
 
@@ -38,7 +38,7 @@ tag:
 
 `out` 修饰符会在函数返回之前给变量赋值[^5]。
 
-### C# 的里终结器与 IDisposable 接口作用
+### C# 里的终结器与 IDisposable 接口作用
 
 [参考](https://learn.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/finalizers)
 
@@ -114,7 +114,7 @@ public class ExampleWsController : ControllerBase
 }
 ```
 
-`GetExampleWs()` 用于建立ws连接，请求url路径为 `ws://localhost/ExampleWs/ExampleWs`.
+`GetExampleWs()` 用于建立 ws 连接，请求 url 路径为 `ws://localhost/ExampleWs/ExampleWs`.
 
 `HandleWebSocket()` 用于处理发送过来的请求，或者向对方发送消息。
 
@@ -145,7 +145,7 @@ public enum EnumExample {
 }
 ```
 
-需用 `[XmlEnum("1")]` 来建立XML中对应值与枚举中对应类型的映射关系。
+需用 `[XmlEnum("1")]` 来建立 XML 中对应值与枚举中对应类型的映射关系。
 
 PS: [序列化对象参考](https://learn.microsoft.com/zh-cn/dotnet/standard/serialization/how-to-serialize-an-object)，[反序列化对象参考](https://learn.microsoft.com/zh-cn/dotnet/standard/serialization/how-to-deserialize-an-object)
 
@@ -217,7 +217,7 @@ PS: [序列化对象参考](https://learn.microsoft.com/zh-cn/dotnet/standard/se
 
 ### MVVM Toolkit 工具包
 
-[官网](https://learn.microsoft.com/zh-cn/dotnet/communitytoolkit/mvvm/)
+[MVVM Toolkit简介](https://learn.microsoft.com/zh-cn/dotnet/communitytoolkit/mvvm/) [![MVVM Toolkit](https://img.shields.io/badge/Nuget-CommunityToolkit.Mvvm-blue?logo=nuget)](https://www.nuget.org/packages/CommunityToolkit.Mvvm/)
 
 建议使用平台：.Net 8，较早的平台可能会出现奇怪的 Bug。
 
@@ -280,7 +280,7 @@ public IRelayCommand GreetUserCommand => greetUserCommand ??= new RelayCommand(G
 
 数据类的成员变量的set属性自动实现 INotifyPropertyChanged（搜索关键词：`Automatically implement INotifyPropertyChanged`）
 
-使用 [PostSharp.Patterns.Model](https://www.nuget.org/packages/PostSharp.Patterns.Model/)
+使用[![PostSharp.Patterns.Model](https://img.shields.io/badge/Nuget-PostSharp.Patterns.Model-blue?logo=nuget)](https://www.nuget.org/packages/PostSharp.Patterns.Model/)
 
 只需要在类上添加`[NotifyPropertyChanged]` [^8]。
 
@@ -288,7 +288,7 @@ public IRelayCommand GreetUserCommand => greetUserCommand ??= new RelayCommand(G
 
 命令类的简化实现
 
-使用 [PostSharp.Pattern.Xaml](https://www.nuget.org/packages/PostSharp.Patterns.Xaml/) [^9]。
+使用[![PostSharp.Patterns.Xaml](https://img.shields.io/badge/Nuget-PostSharp.Patterns.Xaml-blue?logo=nuget)](https://www.nuget.org/packages/PostSharp.Patterns.Xaml/) [^9]。
 
 `region` 处为命令的名称，`ExecuteName` 为执行命令的函数（ `object` 参数根据情况添加，可有可无）。
 

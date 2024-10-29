@@ -46,8 +46,8 @@ WPF 窗口以及其中的所有元素都使用与设备无关的单位进行度�
 
 - PresentationFramework.dll 包含 WPF 顶层的类型，包括那些表示窗口、面板以及其他类型控件的类型。它还实现了高层编程抽象，如样式。开发人员直接使用的大部分类都来自这个程序集。
 - PresentationCore.dll 包含了基础类型，如 UIElement 类和 Visual 类，所有形状类和控件类都继承自这两个类。如果不需要窗口和控件抽象层的全部特征，可使用这一层，而且仍能利用 WPF 的渲染引擎。
-- WindowsBase.dll 包含了更多基本要素，这些要素具有在WPF之外重用的潜能，如 DispatcherObject 类和 DependencyObject 类，这两个类引入了依赖项属性。
-- milcore.dll 是WPF渲染系统的核心，也是媒体集成层（Media Integration Layer，MIL）的基础。其合成引擎将可视化元素转换为 Direct3D 所期望的三角形和纹理。尽管将 milcore.dll 视为WPF的一部分，但它也是 Windows Vista 和 Windows7 的核心系统组件之一。实际上，桌面窗口管理器（Desktop Window Manager，DWM）使用 milcore.dll 渲染桌面。
+- WindowsBase.dll 包含了更多基本要素，这些要素具有在 WPF 之外重用的潜能，如 DispatcherObject 类和 DependencyObject 类，这两个类引入了依赖项属性。
+- milcore.dll 是 WPF 渲染系统的核心，也是媒体集成层（Media Integration Layer，MIL）的基础。其合成引擎将可视化元素转换为 Direct3D 所期望的三角形和纹理。尽管将 milcore.dll 视为 WPF 的一部分，但它也是 Windows Vista 和 Windows7 的核心系统组件之一。实际上，桌面窗口管理器（Desktop Window Manager，DWM）使用 milcore.dll 渲染桌面。
 - VindowsCodecs.dll 是一套提供图像支持的低级API（例如处理、显示以及缩放位图和 JPEG 图像）。
 - Direct3D 是一套低级 API，WPF 应用程序中的所有图形都由它进行渲染。
 - User32 用于决定哪些程序实际占有桌面的哪一部分。所以它仍被包含在 WPF 中，但不再负责渲染通用控件。
@@ -71,7 +71,7 @@ WPF 窗口以及其中的所有元素都使用与设备无关的单位进行度�
 
 3. System.Windows.Media.Visual
 
-   在 WPF 窗口中显示的每个元素本质上都是 Visual 对象。可将 Visual 类视为绘图对象，其中封装了绘图指令、如何执行绘图的附加细节（如剪裁、透明度以及变换设置）以及基本功能（如命中测试)。Visual 类还在托管的 WPF 库和渲染桌面的milcore.dll程序集之间提供了链接。
+   在 WPF 窗口中显示的每个元素本质上都是 Visual 对象。可将 Visual 类视为绘图对象，其中封装了绘图指令、如何执行绘图的附加细节（如剪裁、透明度以及变换设置）以及基本功能（如命中测试)。Visual 类还在托管的 WPF 库和渲染桌面的 milcore.dll 程序集之间提供了链接。
 
    任何继承自 Visual 的类都能在窗口上显示出来。如果更愿意使用轻量级的 API 创建用户界面，而不想使用 WPF 的高级框架特征，直接对 Visual 对象进行编程。
 
@@ -121,7 +121,7 @@ BAML（Binary Application Markup Language, 二进制应用程序标记语言）�
 
 ##### InitializeComponent() 方法
 
-InitializeComponent() 方法在源代码中不可见，因为它是在编译应用程序时自动生成的。本质上，InitializeComponent() 方法的所有工作就是调用 System.Windows.Application 类的 LoadComponent() 方法。LoadComponent() 方法从程序集中提取 BAML (编译过的XAML），并用它来构建用户界面。**当解析 BAML 时，它会创建每个控件对象，设置其属性，并关联所有事件处理程序**。
+InitializeComponent() 方法在源代码中不可见，因为它是在编译应用程序时自动生成的。本质上，InitializeComponent() 方法的所有工作就是调用 System.Windows.Application 类的 LoadComponent() 方法。LoadComponent() 方法从程序集中提取 BAML (编译过的 XAML），并用它来构建用户界面。**当解析 BAML 时，它会创建每个控件对象，设置其属性，并关联所有事件处理程序**。
 
 ##### 简单属性与类型转换器
 
@@ -130,7 +130,7 @@ graph
 1["XAML中的字符串属性"] --->2[XAML解析器] ---> 3{"属性声明中<br/>是否提供<br/>TypeConverter特性"} -->|是| 4[调用]
 
 3 -->|否| 5{"对应数据类型的类声明中<br/>是否使用<br/>TypeConverter(<br/>typeof(xxxConverter)<br/>)特性"} -->|是| 6[调用]
-5 --> 7[生成错误]
+5 -->|否| 7[生成错误]
 ```
 
 注：
@@ -145,7 +145,7 @@ XAML 受到 XML 规则限制。对于一些特殊符号，想要直接使用，�
 | ----------- | -------- |
 | 小于号（≤） | \&lt;    |
 | 大于号（>） | \&gt;    |
-| &符号（&）  | \&amp;   |
+| & 符号（&） | \&amp;   |
 | 引号（"）   | \&quot;  |
 
 希望在按钮文本中包含一系列空格。在这种情况下，需要为元素使用 `xml:space="preserve"` 特性。`xml:space` 特性是 XML 标准的一部分，是一个要么包括全部、要么什么都不包括的设置。一旦使用了该设置，元素内的所有空白字符都将被保留。
