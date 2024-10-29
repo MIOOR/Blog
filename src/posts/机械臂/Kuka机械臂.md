@@ -1,5 +1,5 @@
 ---
-title: Kuka机械臂
+title: Kuka 机械臂
 date: 2023-08-21
 category: 机械臂
 tag: KRL

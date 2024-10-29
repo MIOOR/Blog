@@ -1,6 +1,6 @@
 ---
 title: C# 基础知识
-Date: 2024-6-19
+Date: 2024-06-19
 category: C#
 tag: 
   - C# 语法
