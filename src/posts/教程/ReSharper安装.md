@@ -21,7 +21,9 @@ tag: ReSharper
 
    以管理员身份运行 Patcher.exe .
 
-   ![Pather](./ReSharper%E5%AE%89%E8%A3%85/image-20241028094957447.png)
+   ![运行Pather](./ReSharper%E5%AE%89%E8%A3%85/image-20241028094957447.png)
+
+   ![破解成功](./ReSharper%E5%AE%89%E8%A3%85/image-20241030090841633.png)
 
 4. 安装成功
 

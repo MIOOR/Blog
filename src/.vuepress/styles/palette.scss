@@ -2,3 +2,7 @@
 $theme-color: #096dd9;
 $font-family: 'LXGW Wenkai', 'Georgia, -apple-system, "Nimbus Roman No9 L", "PingFang SC", "Hiragino Sans GB", "Noto Serif SC", "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", sans-serif';
 $font-family-heading: 'LXGW Wenkai', 'Georgia, -apple-system, "Nimbus Roman No9 L", "PingFang SC", "Hiragino Sans GB", "Noto Serif SC", "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", sans-serif';
+// 霞鹜文楷自 v1.5（https://github.com/lxgw/LxgwWenKai/releases/tag/v1.500） 开始将 Blod 字重调整为了 Medium 字重，所以需要特别指定 <strong> 为 LXGW WenKai Medium（即原来的 LXGW WenKai Bold 取消了）
+strong {
+    font-family: 'LXGW WenKai Medium', $font-family;
+}

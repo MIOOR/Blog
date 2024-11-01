@@ -151,7 +151,7 @@ export default hopeTheme({
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+      gfm: true,
 
       // 在启用之前安装 katex
       // katex: true,

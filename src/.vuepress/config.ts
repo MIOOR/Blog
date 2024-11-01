@@ -9,14 +9,15 @@ export default defineUserConfig({
   title: "MIOOR",
   // description: "vuepress-theme-hope 的博客演示",
 
+  // 引入霞鹜文楷字体，仓库地址：https://github.com/CMBill/lxgw-wenkai-web
   head: [
     [
       "link",
       {
-        href: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/lxgwwenkai-regular/result.css",
+        href: "https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css",
         rel: "stylesheet",
       },
-  ]
+    ],
   ],
 
   theme,
