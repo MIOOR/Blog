@@ -55,8 +55,8 @@ jobs:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
 
    # Deployment job
   deploy:
@@ -67,7 +67,7 @@ jobs:
        id-token: write
      # Deploy to the github-pages environment
      environment:
-       name: pages-build-deployment
+       name: github-pages
        url: ${{ steps.deployment.outputs.page_url }}
      steps:
        - name: Deploy to GitHub Pages
