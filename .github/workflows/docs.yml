@@ -9,8 +9,8 @@ on:
   # workflow_dispatch:
 
 jobs:
+  runs-on: ubuntu-latest
   build:
-    runs-on: ubuntu-latest
     permissions:
       contents: write
       id-token: write
