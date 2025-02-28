@@ -24,11 +24,11 @@ tag:
 
 登录后在左侧侧边栏选择 `API 密钥` 选项
 
-![硅基流动API密钥管理页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227140855615.png)
+![硅基流动 API 密钥管理页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227140855615.png)
 
 在 API 密钥页面在右上角选择 `新建API密钥` 。
 
-![image-20250227141203386](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227141203386.png)
+![新建 API 密钥](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227141203386.png)
 
 之后在弹出的对话框里输入待生成密钥的备注，之后点击 `新建密钥` 按钮即可。之后就会生成如上图所示的密钥了（刚注册的账户是没有密钥的）。
 
@@ -46,11 +46,11 @@ tag:
 
 安装完成后打开 Cherry Studio 客户端。之后点击侧边栏左下角的设置选项。
 
-![Cherry Studio客户端主页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227151506880.png)
+![Cherry Studio 客户端主页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227151506880.png)
 
 进入设置页面后，请确认菜单栏 1、2 是按如下选择的。之后在 3 处粘贴之前生成的密钥（复制密钥流程见下图）。
 
-![Cherry Studio客户端设置页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227152205282.png)
+![Cherry Studio 客户端设置页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227152205282.png)
 
 ![复制密钥](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227152632333.png)
 
@@ -90,13 +90,13 @@ tag:
 
 ![网络搜索界面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227170008866.png)
 
-![tavily注册](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227170701427.png)
+![tavily 注册](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227170701427.png)
 
 注册完成之后点击复制按钮来复制 KEY，之后将 KEY 粘贴到 Cherry Studio 里面。
 
-![复制KEY](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171023594.png)
+![复制 KEY](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171023594.png)
 
-![粘贴KEY](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171240976.png)
+![粘贴 KEY](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171240976.png)
 
 ##### 选择 AI 模型
 
@@ -116,11 +116,11 @@ tag:
 
 进入软件后会有一个弹窗，选择 `使用自己的 API Key 或本地模型`。
 
-![Chatbox主页面弹窗](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228105650059.png)
+![Chatbox 主页面弹窗](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228105650059.png)
 
 在新弹窗选择 `SiliconFlow API` 。
 
-![模型API选择](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228110537019.png)
+![模型 API 选择](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228110537019.png)
 
 把[硅基流动的密钥](https://cloud.siliconflow.cn/account/ak)粘贴到如下的框中。
 
@@ -142,11 +142,11 @@ tag:
 
 访问[官网](https://ollama.com/)下载安装
 
-![Ollama官网](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228131013692.png)
+![Ollama 官网](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228131013692.png)
 
 安装完成后在 CMD 中输入 `ollama -v` 验证安装是否成功
 
-![ollama 版本](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228131221231.png)
+![Ollama 版本](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228131221231.png)
 
 ### 拉取模型
 
@@ -177,20 +177,20 @@ tag:
 
 所以我选择的是 **DeepSeek-R1-8B**。
 
-![选取模型](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228132656852.png)
+![选取模型](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228170951459.png)
 
 命令行输入 `ollama run deepseek-r1:8b` 拉取 DeepSeek 模型。几分钟后安装完成就可以在控制台进行对话了。
 
 ### 配置交互页面（可选）
 
-使用命令提示符与 DeepSeek 对话并不友好，为了更好的体验，我们可以安装 [WebUI](https://webui.me/)。
+使用命令提示符与 DeepSeek 对话并不友好，为了更好的体验，我们可以安装 [WebUI](https://webui.me/) 。
 
 命令行输入 `pip install open-webui` 即可安装。但需注意，Python 版本需要 3.11 及以上。
 
 完成后，输入 `open-webui serve` 即可看到如下界面。
 
-![open webui控制台界面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228133447379.png)
+![open webui 控制台界面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228133447379.png)
 
 再打开 `http://localhost:8080/` 选取模型后就可以使用了。
 
-![open webui网络界面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228133644819.png)
+![open webui 网络界面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228133644819.png)
