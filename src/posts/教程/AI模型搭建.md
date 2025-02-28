@@ -18,37 +18,37 @@ tag:
 
 可以直接输入手机号进行注册或登录。
 
-#### API密钥生成
+#### API 密钥生成
 
 ![硅基流动主页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227140541024.png)
 
-登录后在左侧侧边栏选择` API 密钥`选项
+登录后在左侧侧边栏选择 `API 密钥` 选项
 
 ![硅基流动API密钥管理页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227140855615.png)
 
-在API密钥页面在右上角选择`新建API密钥`。
+在API密钥页面在右上角选择 `新建API密钥` 。
 
 ![image-20250227141203386](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227141203386.png)
 
-之后在弹出的对话框里输入待生成密钥的备注，之后点击`新建密钥`按钮即可。之后就会生成如上图所示的密钥了（刚注册的账户是没有密钥的）。
+之后在弹出的对话框里输入待生成密钥的备注，之后点击 `新建密钥` 按钮即可。之后就会生成如上图所示的密钥了（刚注册的账户是没有密钥的）。
 
 ### 用户端软件配置
 
-#### Windows平台
+#### Windows 平台
 
-##### Cherry Studio安装
+##### Cherry Studio 安装
 
-安装[Cherry Studio](https://cherry-ai.com/)客户端。如果点击`立即下载`后下载速度很慢或者无法下载，请点击`其他版本或备用路线下载`，之后任选一个链接来下载。
+安装 [Cherry Studio](https://cherry-ai.com/) 客户端。如果点击 `立即下载` 后下载速度很慢或者无法下载，请点击 `其他版本或备用路线下载` ，之后任选一个链接来下载。
 
 ![备用下载页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227151201544.png)
 
-##### 添加AI模型
+##### 添加 AI 模型
 
-安装完成后打开Cherry Studio客户端。之后点击侧边栏左下角的设置选项。
+安装完成后打开 Cherry Studio 客户端。之后点击侧边栏左下角的设置选项。
 
 ![Cherry Studio客户端主页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227151506880.png)
 
-进入设置页面后，请确认菜单栏1、2是按如下选择的。之后在3处粘贴之前生成的密钥（复制密钥流程见下图）。
+进入设置页面后，请确认菜单栏 1、2 是按如下选择的。之后在 3 处粘贴之前生成的密钥（复制密钥流程见下图）。
 
 ![Cherry Studio客户端设置页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227152205282.png)
 
@@ -56,7 +56,7 @@ tag:
 
 ![复制密钥成功](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227153828426.png)
 
-之后点在`模型广场`页面选择并点击`deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`模型
+之后点在 `模型广场` 页面选择并点击 `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` 模型。
 
 ![选择模型](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227154543863.png)
 
@@ -66,7 +66,7 @@ tag:
 
 ![复制模型名称成功](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227155157347.png)
 
-之后在Cherry Studio里的设置页面的右边第三个内容框里往下滑动到底，点击`添加`按钮，把刚才复制的模型名称填写到第一个框中（剩余框会自动填充），最后点击`添加模型`按钮。
+之后在 Cherry Studio 里的设置页面的右边第三个内容框里往下滑动到底，点击 `添加` 按钮，把刚才复制的模型名称填写到第一个框中（剩余框会自动填充），最后点击 `添加模型` 按钮。
 
 ![添加模型](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227155929250.png)
 
@@ -76,7 +76,7 @@ tag:
 
 ![添加模型成功](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227160357142.png)
 
-在设置页面点击`默认模型`选项，之后把2、3、4依次改成`deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`
+在设置页面点击 `默认模型` 选项，之后把 2、3、4 依次改成 `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` 。
 
 ![更改对话模型](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227160837247.png)
 
@@ -84,23 +84,23 @@ tag:
 
 ![更改模型成功](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227161210692.png)
 
-##### 使AI具备网络搜索功能（可选）
+##### 使 AI 具备网络搜索功能（可选）
 
-点击设置页面的`网络搜索`（1）选项，然后点击`点击这里获取密钥选项`（2）或者点击[这里](https://app.tavily.com/home)，使用邮箱（3）或Google账号（1）或Github账号（2）注册。
+点击设置页面的 `网络搜索`（1）选项，然后点击 `点击这里获取密钥选项`（2）或者点击[这里](https://app.tavily.com/home)，使用邮箱（3）或 Google 账号（1）或 Github 账号（2）注册。
 
 ![网络搜索界面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227170008866.png)
 
 ![tavily注册](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227170701427.png)
 
-注册完成之后点击复制按钮来复制KEY，之后将KEY粘贴到Cherry Studio里面。
+注册完成之后点击复制按钮来复制 KEY，之后将 KEY 粘贴到 Cherry Studio 里面。
 
 ![复制KEY](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171023594.png)
 
 ![粘贴KEY](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171240976.png)
 
-##### 选择AI模型
+##### 选择 AI 模型
 
-点击（1）处，选择`deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`模型。如果设置了网络搜索功能，则可以点击（2）开启网络搜索功能。
+点击（1）处，选择 `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` 模型。如果设置了网络搜索功能，则可以点击（2）开启网络搜索功能。
 
 ![对话页面](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250227171833206.png)
 
@@ -108,17 +108,17 @@ tag:
 
 #### Android（安卓）平台
 
-##### Chatbox安装
+##### Chatbox 安装
 
-点击[此处](https://chatboxai.app/zh/install?download=android_apk)下载APK安装包或访问[官网](https://chatboxai.app/zh)下载。之后点击下载好的apk来安装软件。
+点击[此处](https://chatboxai.app/zh/install?download=android_apk)下载 APK 安装包或访问[官网](https://chatboxai.app/zh)下载。之后点击下载好的 APK 来安装软件。
 
 ##### 参数配置
 
-进入软件后会有一个弹窗，选择`使用自己的API Key或本地模型`。
+进入软件后会有一个弹窗，选择 `使用自己的 API Key 或本地模型`。
 
 ![Chatbox主页面弹窗](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228105650059.png)
 
-在新弹窗选择`SiliconFlow API`。
+在新弹窗选择 `SiliconFlow API` 。
 
 ![模型API选择](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228110537019.png)
 
@@ -126,7 +126,7 @@ tag:
 
 ![填入密钥](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228110639148.png)
 
-之后点击下拉菜单栏（1），在选项里下划找到`deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`（2）模型，然后点击`保存`即可。
+之后点击下拉菜单栏（1），在选项里下划找到 `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`（2）模型，然后点击 `保存` 即可。
 
 ![模型选择](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228110918357.png)
 
@@ -138,13 +138,13 @@ tag:
 
 ## 使用本地大模型
 
-### 安装Ollama
+### 安装 Ollama
 
 访问[官网](https://ollama.com/)下载安装
 
 ![Ollama官网](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228131013692.png)
 
-安装完成后在CMD中输入 `ollama -v` 验证安装是否成功
+安装完成后在 CMD 中输入 `ollama -v` 验证安装是否成功
 
 ![ollama 版本](./AI%E6%A8%A1%E5%9E%8B%E6%90%AD%E5%BB%BA/image-20250228131221231.png)
 
@@ -183,9 +183,9 @@ tag:
 
 ### 配置交互页面（可选）
 
-使用命令提示符与 DeepSeek 对话并不友好，为了更好的体验，我们可以安装[WebUI](https://webui.me/)。
+使用命令提示符与 DeepSeek 对话并不友好，为了更好的体验，我们可以安装 [WebUI](https://webui.me/)。
 
-命令行输入 `pip install open-webui` 即可安装。但需注意，Python 版本需要3.11及以上。
+命令行输入 `pip install open-webui` 即可安装。但需注意，Python 版本需要 3.11 及以上。
 
 完成后，输入 `open-webui serve` 即可看到如下界面。
 
