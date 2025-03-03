@@ -8,7 +8,7 @@ hero: False
 # heroText: 你博客的名称
 # heroFullScreen: true
 # tagline: 你可以在这里放置你的口号与标语
-# projects:
+#projects:
 #   - icon: project
 #     name: 项目名称
 #     desc: 项目详细描述
@@ -30,9 +30,9 @@ hero: False
 #     link: https://你的文章链接
 
 #   - icon: friend
-#     name: 伙伴名称
+#     name: jmx
 #     desc: 伙伴详细介绍
-#     link: https://你的伙伴链接
+#     link: https://pursueinf.cn/
 
 #   - icon: https://theme-hope-assets.vuejs.press/logo.svg
 #     name: 自定义项目
