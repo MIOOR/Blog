@@ -1,8 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { path } from "vuepress/utils";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+
 
 export default hopeTheme({
   hostname: "https://mioor.top",
@@ -180,9 +179,9 @@ export default hopeTheme({
     },
 
     docsearch: {
-      appId: 'EH91TV61IP',
-      apiKey: '1d1ce3f8f4c79e618f42238e8c724d9c',
-      indexName: 'mioor',
+      appId: 'P64E14MW42',
+      apiKey: '5d37d4bada07fa582589ccb38a4e28b9',
+      indexName: 'www_mioor_top_p64e14mw42_pages',
       locales: {
         '/': {
           placeholder: 'Search Documentation',
