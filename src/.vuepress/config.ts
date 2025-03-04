@@ -18,6 +18,13 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
+    [
+        'meta',
+      {
+        name: 'algolia-site-verification',
+        content: '921F431D245B9B4D'
+      }
+    ],
   ],
 
   theme,

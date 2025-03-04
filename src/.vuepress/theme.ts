@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { path } from "vuepress/utils";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default hopeTheme({
   hostname: "https://mioor.top",
@@ -178,6 +179,29 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
+    docsearch: {
+      appId: 'EH91TV61IP',
+      apiKey: '1d1ce3f8f4c79e618f42238e8c724d9c',
+      indexName: 'mioor',
+      locales: {
+        '/': {
+          placeholder: 'Search Documentation',
+          translations: {
+            button: {
+              buttonText: 'Search Documentation',
+            },
+          },
+        },
+        '/zh/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索文档',
+            },
+          },
+        },
+      },
+    },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
