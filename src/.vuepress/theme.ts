@@ -180,18 +180,18 @@ export default hopeTheme({
 
     docsearch: {
       appId: 'P64E14MW42',
-      apiKey: '5d37d4bada07fa582589ccb38a4e28b9',
+      apiKey: 'cb8e530667f61cfb041d57e091b2a3f0',
       indexName: 'www_mioor_top_p64e14mw42_pages',
       locales: {
+        // '/': {
+        //   placeholder: 'Search Documentation',
+        //   translations: {
+        //     button: {
+        //       buttonText: 'Search Documentation',
+        //     },
+        //   },
+        // },
         '/': {
-          placeholder: 'Search Documentation',
-          translations: {
-            button: {
-              buttonText: 'Search Documentation',
-            },
-          },
-        },
-        '/zh/': {
           placeholder: '搜索文档',
           translations: {
             button: {
