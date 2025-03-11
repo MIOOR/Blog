@@ -22,6 +22,7 @@
     "vuepress-theme-hope": "2.0.0-rc.73"
   },
   "dependencies": {
+    "@docsearch/js": "^3.9.0",
     "badge-maker": "^4.1.0"
   }
 }

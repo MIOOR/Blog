@@ -5,7 +5,7 @@ category: 教程
 tag: ReSharper
 ---
 
-1. 在 [Other Versions - ReSharper](https://www.jetbrains.com/zh-cn/resharper/download/other.html) 上下载2022.x到2024.x之间的版本，推荐下载最新的。本教程写时最新的为2024.2.
+1. 在 [Other Versions - ReSharper](https://www.jetbrains.com/zh-cn/resharper/download/other.html) 上下载 2022.x 到 2024.2.2 之间的版本，或者点击[这里](https://womioor.lanzouu.com/iUJN22q8jwxg)下载 2024.2.2 的版本。
 
    ![ReSharper 的安装版本选择](./ReSharper%E5%AE%89%E8%A3%85/image-20241028101842300.png)
 
@@ -21,7 +21,7 @@ tag: ReSharper
 
    以管理员身份运行 Patcher.exe .
 
-   ![运行Pather](./ReSharper%E5%AE%89%E8%A3%85/image-20241028094957447.png)
+   ![运行 Pather](./ReSharper%E5%AE%89%E8%A3%85/image-20241028094957447.png)
 
    ![破解成功](./ReSharper%E5%AE%89%E8%A3%85/image-20241030090841633.png)
 
@@ -31,5 +31,5 @@ tag: ReSharper
 
    ![在 VS 上查询 ReSharper 状态](./ReSharper%E5%AE%89%E8%A3%85/image-20241028100637079.png)
 
-   ![注册成功](./ReSharper%E5%AE%89%E8%A3%85/image-20241028101106270.png)
+   ![激活成功](./ReSharper%E5%AE%89%E8%A3%85/image-20250311110531575.png)
 

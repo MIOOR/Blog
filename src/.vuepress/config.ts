@@ -8,7 +8,8 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "MIOOR",
   // description: "vuepress-theme-hope 的博客演示",
-
+  // 设置永久链接模式
+  // permalinkPattern: ':year/:month/:day/:slug.html',
   // 引入霞鹜文楷字体，仓库地址：https://github.com/CMBill/lxgw-wenkai-web
   head: [
     [

@@ -16,6 +16,7 @@ export default hopeTheme({
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+
   // TOC的深度
   headerDepth: 6,
   // 导航栏
@@ -178,29 +179,52 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    docsearch: {
-      appId: 'P64E14MW42',
-      apiKey: 'cb8e530667f61cfb041d57e091b2a3f0',
-      indexName: 'www_mioor_top_p64e14mw42_pages',
-      locales: {
-        // '/': {
-        //   placeholder: 'Search Documentation',
-        //   translations: {
-        //     button: {
-        //       buttonText: 'Search Documentation',
-        //     },
-        //   },
-        // },
-        '/': {
-          placeholder: '搜索文档',
-          translations: {
-            button: {
-              buttonText: '搜索文档',
-            },
-          },
-        },
-      },
-    },
+    // docsearch: {
+    //   appId: 'P64E14MW42',
+    //   apiKey: 'cb8e530667f61cfb041d57e091b2a3f0',
+    //   indexName: 'www_mioor_top_p64e14mw42_pages',
+    //   locales: {
+    //     "/": {
+    //       placeholder: "搜索文档",
+    //       translations: {
+    //         button: {
+    //           buttonText: "搜索文档",
+    //           buttonAriaLabel: "搜索文档",
+    //         },
+    //         modal: {
+    //           searchBox: {
+    //             resetButtonTitle: "清除查询条件",
+    //             resetButtonAriaLabel: "清除查询条件",
+    //             cancelButtonText: "取消",
+    //             cancelButtonAriaLabel: "取消",
+    //           },
+    //           startScreen: {
+    //             recentSearchesTitle: "搜索历史",
+    //             noRecentSearchesText: "没有搜索历史",
+    //             saveRecentSearchButtonTitle: "保存至搜索历史",
+    //             removeRecentSearchButtonTitle: "从搜索历史中移除",
+    //             favoriteSearchesTitle: "收藏",
+    //             removeFavoriteSearchButtonTitle: "从收藏中移除",
+    //           },
+    //           errorScreen: {
+    //             titleText: "无法获取结果",
+    //             helpText: "你可能需要检查你的网络连接",
+    //           },
+    //           footer: {
+    //             selectText: "选择",
+    //             navigateText: "切换",
+    //             closeText: "关闭",
+    //             searchByText: "搜索提供者",
+    //           },
+    //           noResultsScreen: {
+    //             noResultsText: "无法找到相关结果",
+    //             suggestedQueryText: "你可以尝试查询",
+    //           },
+    //         },
+    //       },
+    //     },
+    //   },
+    // },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
