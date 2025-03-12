@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 import theme from "./theme.js";
 
@@ -30,6 +31,16 @@ export default defineUserConfig({
 
   theme,
 
+  pagePatterns: [
+    "**/*.md",
+    "!.vuepress/**",
+    "!.git/**",
+    "!node_modules/**",
+    "!draft/**" // 忽略 src 下的 draft 文件夹
+  ],
+
+  plugins: [
+  ]
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
