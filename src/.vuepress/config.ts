@@ -34,9 +34,12 @@ export default defineUserConfig({
   pagePatterns: [
     "**/*.md",
     "!.vuepress/**",
+    "!.obsidian/**",
+    "!.trash/**",
     "!.git/**",
     "!node_modules/**",
-    "!draft/**" // 忽略 src 下的 draft 文件夹
+    "!draft/**",
+    "!template/**",
   ],
 
   plugins: [

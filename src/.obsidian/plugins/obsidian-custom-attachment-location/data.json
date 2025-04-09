@@ -1,0 +1,19 @@
+{
+  "attachmentFolderPath": "./${filename}",
+  "attachmentRenameMode": "None",
+  "duplicateNameSeparator": " ",
+  "generatedAttachmentFilename": "img-${date:YYYYMMDDHHmmssSSS}",
+  "jpegQuality": 1,
+  "shouldConvertPastedImagesToJpeg": false,
+  "shouldDeleteOrphanAttachments": false,
+  "shouldKeepEmptyAttachmentFolders": false,
+  "shouldRenameAttachmentFiles": true,
+  "shouldRenameAttachmentFolder": true,
+  "shouldRenameAttachmentsToLowerCase": false,
+  "shouldRenameCollectedAttachments": true,
+  "warningVersion": "7.0.3",
+  "whitespaceReplacement": "",
+  "customTokensStr": "",
+  "excludePaths": [],
+  "includePaths": []
+}

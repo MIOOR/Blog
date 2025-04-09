@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "269aedf8936cf4cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "92ce7911586f0d09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "009d4bc11491209b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/教程/MySQL 安装.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MySQL 安装"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a38246de6a7fb01",
+    "type": "split",
+    "children": [
+      {
+        "id": "b24dea2f1a8990bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0167d207008c614d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e9b7c267f5045396",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3f4e91523798496e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "6acb180007601f6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a79ef121ca10d8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95a32fb8db2f060b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/软件开发/开发模式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "开发模式 的反向链接列表"
+            }
+          },
+          {
+            "id": "812743d8edd4cf8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/软件开发/开发模式.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "开发模式 的出链列表"
+            }
+          },
+          {
+            "id": "ad94eb47513df87f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7894508cd76c00a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/教程/MySQL 安装.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "MySQL 安装 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "0167d207008c614d",
+  "lastOpenFiles": [
+    "posts/教程/MySQL 安装",
+    "posts/教程/MySQL 安装/Pasted image 20250409155650.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409155855.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409155753.png",
+    "posts/教程/MySQL 安装.md",
+    "posts/教程/MySQL 安装/Pasted image 20250409155248.png",
+    "posts/软件开发/开发模式.md",
+    "posts/教程/MySQL 安装/Pasted image 20250409155143.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409155046.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409154957.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409154855.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409154740.png",
+    "posts/教程/MySQL 安装/Pasted image 20250409154554.png",
+    "draft/MySQL 安装",
+    "draft/MySQL安装",
+    "posts/软件开发/软件界面设计思路.md",
+    "draft/Flask.md",
+    "draft/Electron.md",
+    "draft/VuePress 建站笔记.md",
+    "draft/VuePress建站笔记.md",
+    "template/通用模版.md",
+    "未命名.canvas",
+    "posts/C#/ORM框架的使用.md",
+    "template",
+    "posts/前端/前端.md",
+    "posts/参考网址.md"
+  ]
+}
