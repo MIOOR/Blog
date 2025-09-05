@@ -18,7 +18,7 @@ export default hopeTheme({
   docsDir: "src",
 
   // TOC的深度
-  headerDepth: 6,
+  // headerDepth: 6,
   // 导航栏
   navbar,
 
