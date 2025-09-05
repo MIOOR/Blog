@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -20,11 +19,12 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
+    // algolia 站点验证
     [
         'meta',
       {
         name: 'algolia-site-verification',
-        content: '921F431D245B9B4D'
+        content: '2388DB042933D4BE'
       }
     ],
     // 从 Google Fonts 引入 JetBrains Mono 字体
@@ -66,6 +66,29 @@ export default defineUserConfig({
   ],
 
   plugins: [
+    docsearchPlugin({
+      appId: 'GJ0L5HSCA2',
+      apiKey: '39972eb2e73154f3548e9cd3dac66904',
+      indexName: '<INDEX_NAME>',
+      locales: {
+        '/': {
+          placeholder: 'Search Documentation',
+          translations: {
+            button: {
+              buttonText: 'Search Documentation',
+            },
+          },
+        },
+        '/zh/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索文档',
+            },
+          },
+        },
+      },
+    }),
   ]
   // 和 PWA 一起启用
   // shouldPrefetch: false,

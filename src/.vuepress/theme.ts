@@ -2,7 +2,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-
 export default hopeTheme({
   hostname: "https://mioor.top",
 
@@ -101,7 +100,6 @@ export default hopeTheme({
     include: true,
     mark: true,
     math: true,
-    mermaid: true,
     plantuml: true,
     spoiler: true,
     stylize: [
@@ -144,7 +142,7 @@ export default hopeTheme({
     // mathjax: true,
 
     // 在启用之前安装 mermaid
-    // mermaid: true,
+    mermaid: true,
 
     // playground: {
     //   presets: ["ts", "vue"],
